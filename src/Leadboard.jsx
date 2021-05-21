@@ -108,9 +108,14 @@ const Leadboard = () => {
                       <span>{item.total}</span>
                     </div>
                   </div>
-                  <div style={{flex:0}} className="sbtn">
+
+                  {/* to add delete functionality just enable below lines */}
+
+
+                  {/* <div style={{flex:0}} className="sbtn">
                   <Delete className="btn btn-sm btn-outline-danger" id={item.id} />
-                  </div>
+                  </div> */}
+                  
                 </div>
               );
             })}
