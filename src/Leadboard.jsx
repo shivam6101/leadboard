@@ -108,9 +108,9 @@ const Leadboard = () => {
                       <span>{item.total}</span>
                     </div>
                   </div>
-                  {/* <div style={{flex:0}} className="sbtn">
+                  <div style={{flex:0}} className="sbtn">
                   <Delete className="btn btn-sm btn-outline-danger" id={item.id} />
-                  </div> */}
+                  </div>
                 </div>
               );
             })}
