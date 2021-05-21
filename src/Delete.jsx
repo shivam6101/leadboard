@@ -7,7 +7,7 @@ const Delete=(props)=>{
         const requestoption={
             method:'DELETE'
         };
-        fetch(`http://127.0.0.1:8000/form/taskdelete/${props.id}`,requestoption).then(alert("deleted"))
+        fetch(`https://backendsem.herokuapp.com/form/taskdelete/${props.id}`,requestoption).then(alert("deleted"))
         window.location.reload();
     }
     

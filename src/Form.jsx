@@ -44,7 +44,7 @@ const Form = () => {
       data.physic &&
       data.chemistry
     ) {
-      axios.post("http://leadboard6101.pythonanywhere.com/form/taskcreate", data);
+      axios.post("https://backendsem.herokuapp.com/form/taskcreate", data);
       alert("submitted");
       window.location.reload(); 
       

@@ -14,7 +14,7 @@ const Leadboard = () => {
   const sorted = task;
   useEffect(() => {
     async function getData() {
-      const res = await axios.get("http://leadboard6101.pythonanywhere.com/form/tasklist");
+      const res = await axios.get("https://backendsem.herokuapp.com/form/tasklist");
       setTask(res.data);
     }
     getData();
